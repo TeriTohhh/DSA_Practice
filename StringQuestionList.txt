@@ -1,0 +1,95 @@
+✅ EASY LEVEL
+Reverse a string
+🔹 Input: "hello" → Output: "olleh"
+
+Check for palindrome
+🔹 Input: "madam" → Output: true
+
+Count vowels and consonants
+🔹 Input: "abcde" → Output: Vowels: 2, Consonants: 3
+
+Remove duplicate characters
+🔹 Input: "banana" → Output: "ban"
+
+Find first non-repeating character
+🔹 Input: "aabbcdd" → Output: "c"
+
+Convert string to title case
+🔹 Input: "hello world" → Output: "Hello World"
+
+Check if two strings are anagrams
+🔹 Input: "listen", "silent" → Output: true
+
+Toggle case of each character
+🔹 Input: "AbC" → Output: "aBc"
+
+Check if a string is a pangram
+🔹 Input: "The quick brown fox jumps over the lazy dog" → Output: true
+
+Find character with maximum frequency
+🔹 Input: "apple" → Output: "p"
+
+🔷 MEDIUM LEVEL
+Longest common prefix
+🔹 Input: ["flower","flow","flight"] → Output: "fl"
+
+Count all substrings
+🔹 Input: "abc" → Output: 6 substrings
+
+Group anagrams
+🔹 Input: ["eat","tea","tan","ate","nat","bat"]
+🔹 Output: [["eat","tea","ate"],["tan","nat"],["bat"]]
+
+Check if one string is rotation of another
+🔹 Input: "abcde", "cdeab" → Output: true
+
+Find all permutations of a string
+🔹 Input: "abc" → Output: ["abc", "acb", "bac", "bca", "cab", "cba"]
+
+String compression
+🔹 Input: "aabbbccc" → Output: "a2b3c3"
+
+Find all occurrences of a substring
+🔹 Input: "abracadabra", "abra" → Output: Indexes: 0, 7
+
+Replace all spaces with %20
+🔹 Input: "Mr John Smith" → Output: "Mr%20John%20Smith"
+
+Longest substring without repeating characters
+🔹 Input: "abcabcbb" → Output: 3 ("abc")
+
+Validate balanced parentheses
+🔹 Input: "{[()]}" → Output: true
+
+🔴 HARD LEVEL
+Longest palindromic substring
+🔹 Input: "babad" → Output: "bab" or "aba"
+
+Minimum window substring
+🔹 Input: "ADOBECODEBANC", "ABC" → Output: "BANC"
+
+Word break problem
+🔹 Input: "leetcode", ["leet", "code"] → Output: true
+
+Regular expression matching
+🔹 Input: "aa", "a*" → Output: true
+
+Implement atoi()
+🔹 Input: "42" → Output: 42
+
+String multiplication
+🔹 Input: "12" * "34" → Output: "408"
+
+Edit Distance
+🔹 Input: "horse", "ros" → Output: 3
+
+Count and Say
+🔹 Input: 4 → Output: "1211"
+
+Decode ways
+🔹 Input: "12" → Output: 2 ("AB", "L")
+
+Find repeated DNA sequences
+🔹 Input: "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
+🔹 Output: ["AAAAACCCCC", "CCCCCAAAAA"]
+
