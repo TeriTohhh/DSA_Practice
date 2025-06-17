@@ -1,0 +1,93 @@
+📗 ARRAY PROBLEMS
+✅ EASY LEVEL
+Find max/min in array
+🔹 Input: [1, 2, 3] → Max: 3, Min: 1
+
+Remove duplicates
+🔹 Input: [1, 1, 2] → Output: [1, 2]
+
+Reverse an array
+🔹 Input: [1, 2, 3] → Output: [3, 2, 1]
+
+Rotate array by k
+🔹 Input: [1,2,3,4,5], k=2 → Output: [4,5,1,2,3]
+
+Move zeros to end
+🔹 Input: [0,1,0,3,12] → Output: [1,3,12,0,0]
+
+Count frequency of elements
+🔹 Input: [1,2,2,3] → Output: {1:1, 2:2, 3:1}
+
+Check if array is sorted
+🔹 Input: [1,2,3] → Output: true
+
+Merge two sorted arrays
+🔹 Input: [1,3], [2,4] → Output: [1,2,3,4]
+
+Find missing number
+🔹 Input: [1,2,4] → Output: 3
+
+Find second largest/smallest
+🔹 Input: [4,1,2,3] → Output: Second Largest: 3, Second Smallest: 2
+
+🔷 MEDIUM LEVEL
+Two Sum
+🔹 Input: [2,7,11,15], target=9 → Output: [0,1]
+
+Subarray with given sum
+🔹 Input: [1,4,20,3,10,5], sum=33 → Output: [2,4]
+
+Kadane’s Algorithm (Max Subarray Sum)
+🔹 Input: [-2,1,-3,4,-1,2,1,-5,4] → Output: 6
+
+Majority Element
+🔹 Input: [3,2,3] → Output: 3
+
+Sort 0s, 1s, and 2s (Dutch Flag Problem)
+🔹 Input: [0,1,2,0,1,2] → Output: [0,0,1,1,2,2]
+
+Product of array except self
+🔹 Input: [1,2,3,4] → Output: [24,12,8,6]
+
+Longest consecutive sequence
+🔹 Input: [100, 4, 200, 1, 3, 2] → Output: 4
+
+Prefix sum & range queries
+🔹 Input: [1,2,3,4], query(1,3) → Output: 9
+
+Rearrange +ve and -ve numbers alternately
+🔹 Input: [1,2,3,-4,-1,4] → Output: [1,-4,2,-1,3,4]
+
+Check duplicates within k distance
+🔹 Input: [1,2,3,1], k=3 → Output: true
+
+🔴 HARD LEVEL
+Merge Intervals
+🔹 Input: [[1,3],[2,6],[8,10],[15,18]] → Output: [[1,6],[8,10],[15,18]]
+
+Trapping Rain Water
+🔹 Input: [0,1,0,2,1,0,1,3,2,1,2,1] → Output: 6
+
+Sliding Window Maximum
+🔹 Input: [1,3,-1,-3,5,3,6,7], k=3 → Output: [3,3,5,5,6,7]
+
+Median of Two Sorted Arrays
+🔹 Input: [1,3], [2] → Output: 2.0
+
+Maximum Product Subarray
+🔹 Input: [2,3,-2,4] → Output: 6
+
+Find All Duplicates
+🔹 Input: [4,3,2,7,8,2,3,1] → Output: [2,3]
+
+Count Inversions
+🔹 Input: [2, 4, 1, 3, 5] → Output: 3
+
+Max sum of k subarrays
+🔹 Input: [1, 2, 3, 4, 5], k=2 → Output: 9
+
+Rotate Matrix 90 degrees
+🔹 Input: [[1,2,3],[4,5,6],[7,8,9]] → Output: [[7,4,1],[8,5,2],[9,6,3]]
+
+Set Matrix Zeros
+🔹 Input: [[1,1,1],[1,0,1],[1,1,1]] → Output: [[1,0,1],[0,0,0],[1,0,1]]
