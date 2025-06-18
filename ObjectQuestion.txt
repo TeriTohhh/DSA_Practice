@@ -1,0 +1,185 @@
+🔹 SECTION 1: Basic Object Operations (15 Questions)
+
+Merge two objects and give priority to the second object.
+
+Example: mergeObjects({a:1, b:2}, {b:3, c:4}) // {a:1, b:3, c:4}
+
+Clone an object (shallow copy).
+
+Example: cloneObject({a:1}) // {a:1}
+
+Check if an object is empty.
+
+Example: isEmpty({}) // true
+
+Count the number of keys in an object.
+
+Example: countKeys({a:1, b:2}) // 2
+
+Access deeply nested properties in an object safely.
+
+Example: get(obj, 'a.b.c') // 42
+
+Invert keys and values of an object.
+
+Example: {a: 'x', b: 'y'} => {'x': 'a', 'y': 'b'}
+
+Convert object to array of key-value pairs.
+
+Example: {a:1, b:2} => [['a', 1], ['b', 2]]
+
+Convert array of key-value pairs to object.
+
+Example: [['a', 1], ['b', 2]] => {a:1, b:2}
+
+Group an array of objects by a specific key.
+
+Example: groupBy([{city:'NY'},{city:'LA'}], 'city') => {'NY': [...], 'LA': [...]}
+
+Find duplicates in array of objects based on a key.
+
+Example: removeDuplicates([{email:'a'},{email:'b'},{email:'a'}])
+
+Convert values of an object to lowercase.
+
+Example: {Fruit: ' Apple '} => {fruit: 'apple'}
+
+Filter object properties based on value condition.
+
+Example: filterByValue({a:1, b:3}, val => val > 2) => {b:3}
+
+Sort object keys alphabetically.
+
+Example: {b:1, a:2} => {a:2, b:1}
+
+Swap keys and values in nested object.
+
+Example: swapNested({a:{b:'x'}}) => {x:{b:'a'}}
+
+Convert object values into string format with delimiter.
+
+Example: {a:1,b:2} => 'a=1;b=2'
+
+🔹 SECTION 2: Intermediate Object Techniques (15 Questions)
+
+Flatten a deeply nested object.
+
+Example: {a:{b:{c:1}}} => {'a.b.c':1}
+
+Expand a flattened object to nested form.
+
+Example: {'a.b.c':1} => {a:{b:{c:1}}}
+
+Deep clone an object.
+
+Example: deepClone({a:{b:1}})
+
+Remove null, undefined, '', and NaN values from an object.
+
+Example: {a:null, b:1, c:''} => {b:1}
+
+Get all deep keys from an object.
+
+Example: {a:{b:1}} => ['a.b']
+
+Deep freeze an object and its nested objects.
+
+Example: deepFreeze({a:{b:2}})
+
+Merge two deeply nested objects.
+
+Example: {a:{b:1}}, {a:{c:2}} => {a:{b:1, c:2}}
+
+Convert object to query string.
+
+Example: {a:1,b:2} => 'a=1&b=2'
+
+Convert query string to object.
+
+Example: 'a=1&b=2' => {a:'1', b:'2'}
+
+Replace specific keys in object.
+
+Example: {a:1,b:2} => rename 'a' to 'x' => {x:1,b:2}
+
+Create a new object with only selected keys.
+
+Example: pick({a:1,b:2,c:3}, ['a','c']) => {a:1,c:3}
+
+Remove selected keys from object.
+
+Example: omit({a:1,b:2,c:3}, ['b']) => {a:1,c:3}
+
+Sort nested object keys.
+
+Example: {z:{x:1}, a:{b:2}} => {a:{b:2}, z:{x:1}}
+
+Find deep key by value.
+
+Example: findKey({a:{b:{c:5}}}, 5) => 'a.b.c'
+
+Create object from array of objects with specific key as object key.
+
+Example: [{id:1,val:'a'}] => {1:{id:1,val:'a'}}
+
+🔹 SECTION 3: Objects with Async / Timeout / Promises (15 Questions)
+
+Return array of users after 1s with isAdult property based on age.
+
+Example: [{name:'A', age:18}] => resolve with [{name:'A', age:18, isAdult:true}]
+
+Deep copy array of objects, trim name, add boolean key based on condition, and group by category — resolve after 1 second.
+
+Example: [{fruits:' Apple ', price:5}] => {category:[{fruits:'apple', isStockLow:true}]}
+
+Create a function that returns object after delay using setTimeout.
+
+Example: getData(obj) => resolves in 1s
+
+Wrap setTimeout in a promise.
+
+Example: wait(1000).then(...);
+
+Retry API call 3 times before failing.
+
+Example: fetchWithRetry(api, 3)
+
+Debounce function to delay object update.
+
+Example: debouncedSave({a:1})
+
+Throttle object callback function.
+
+Example: throttle(logObj, 2000)
+
+Create a delay between object processing steps using async/await.
+
+Example: stepByStep(obj)
+
+Promisify a callback-based object fetch.
+
+Example: getData(cb) => getDataPromise()
+
+Merge API object data after resolving multiple endpoints using Promise.all.
+
+Example: [api1, api2] => {a:1, b:2}
+
+Resolve only fastest object response using Promise.race.
+
+Example: fastest(api1, api2)
+
+Chain promise-based object transformations.
+
+Example: getUser().then(formatUser).then(saveUser)
+
+Fetch object, check key existence, and return default if not present.
+
+Example: getUser().then(u => u.name || 'Unknown')
+
+Wait for all object updates to complete before proceeding.
+
+Example: await Promise.all([update1(), update2()])
+
+Cancel a timeout object operation.
+
+Example: clearTimeout(objTimeout)
